@@ -1,0 +1,325 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/User/authenticate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/auth"
+    },
+    {
+      "DownstreamPathTemplate": "/User/LoginAuthenticate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/mobile-auth"
+    },
+
+    {
+      "DownstreamPathTemplate": "/User/forgetPassword",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/user-api/forgetPassword"
+    },
+    {
+      "DownstreamPathTemplate": "/User/saveUserAcademicInfo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/user-api/saveUserAcademicinfo"
+    },
+    {
+      "DownstreamPathTemplate": "/User/saveUserInterestInfo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/user-api/saveUserInterest"
+    },
+    {
+      "DownstreamPathTemplate": "/User/getOTP",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/saveOTP"
+    },
+    {
+      "DownstreamPathTemplate": "/User/getVerifyOTP",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/getOTP"
+    },
+    {
+      "DownstreamPathTemplate": "/User/saveWebUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/saveUser"
+    },
+    {
+      "DownstreamPathTemplate": "/Program/saveContactUS",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/core-api/saveContactUS"
+    },
+    {
+      "DownstreamPathTemplate": "/User/getCompanyLogo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/logo"
+    },
+    {
+      "DownstreamPathTemplate": "/User/LoginGoogleAuth",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+          "Host": "localhost",
+          "Port": "2001"
+      }],
+      "UpstreamPathTemplate": "/auth-api/googleAuth"
+  },
+  {
+      "DownstreamPathTemplate": "/User/GoogleSaveUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+          "Host": "localhost",
+          "Port": "2001"
+      }],
+      "UpstreamPathTemplate": "/auth-api/googleSaveUser"
+  },
+    {
+      "DownstreamPathTemplate": "/User/genToken",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-api/generateToken"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "8064"
+        }
+      ],
+      "UpstreamPathTemplate": "/recruitment-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/user-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/trainer-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13505"
+        }
+      ],
+      "UpstreamPathTemplate": "/addmission-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/school-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13505"
+        }
+      ],
+      "UpstreamPathTemplate": "/admission-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13506"
+        }
+      ],
+      "UpstreamPathTemplate": "/gl-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13508"
+        }
+      ],
+      "UpstreamPathTemplate": "/payroll-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13509"
+        }
+      ],
+      "UpstreamPathTemplate": "/budget-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13510"
+        }
+      ],
+      "UpstreamPathTemplate": "/voucher-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "13512"
+        }
+      ],
+      "UpstreamPathTemplate": "/inventory-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/User/verifyPin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2001"
+        }
+      ],
+      "UpstreamPathTemplate": "/pin-api/pin",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "MyOwnKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Trainer/saveTrainerExperience",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/trainer-api/saveExperience",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "MyOwnKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/dashboard-api/{catchAll}"
+    },
+    {
+      "DownstreamPathTemplate": "/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "2002"
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-api/{catchAll}"
+      // "AuthenticationOptions": {
+      //   "AuthenticationProviderKey": "MyOwnKey",
+      //   "AllowedScopes": []
+      //}
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:2000/"
+  }
+}
