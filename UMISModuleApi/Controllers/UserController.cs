@@ -427,7 +427,7 @@ namespace UMISModuleAPI.Controllers
         {
             try
             {
-                model.eDocPath = "C:\\inetpub\\wwwroot\\YouthPortal\\YouthPortal-app\\browser\\assets\\Applicant-images\\Applicant-Profile";
+                model.eDocPath = "C:\\inetpub\\wwwroot\\CSS-Portal\\CSS-Portal-app\\browser\\assets\\Applicant-images\\Applicant-Profile";
                 var response = dapperQuery.SPReturn("sp_saveUser", model, _dbCon);
                 var data = response.Select(row => new { res = row.ToString() });
                 bool result = data.First().res.Contains("Success");
@@ -453,7 +453,7 @@ namespace UMISModuleAPI.Controllers
         {
             try
             {
-                 model.eResumePath = "C:\\inetpub\\wwwroot\\YouthPortal\\YouthPortal-app\\browser\\assets\\Applicant-images\\Applicant-resume";
+                 model.eResumePath = "C:\\inetpub\\wwwroot\\CSS-Portal\\CSS-Portal-app\\browser\\assets\\Applicant-images\\Applicant-resume";
                 var response = dapperQuery.SPReturn("sp_saveUserAcadmicInfo", model, _dbCon);
                 var data = response.Select(row => new { res = row.ToString() });
                 bool result = data.First().res.Contains("Success");
