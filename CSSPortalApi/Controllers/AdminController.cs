@@ -53,7 +53,7 @@ public class AdminController : ControllerBase
         try
         {
             cmd = "select userID,userName from tbl_user where isDeleted=0 and userTypeID=2";
-            var response = dapperQuery.Qry<GetSpeeker>(cmd, _dbCon);
+            var response = dapperQuery.Qry<GetSpeaker>(cmd, _dbCon);
             return Ok(response);
         }
         catch (Exception e)
