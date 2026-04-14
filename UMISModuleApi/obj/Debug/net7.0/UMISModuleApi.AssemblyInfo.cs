@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UMISModuleApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31a68c2b8c91a7071770b500ef5055a39c1db51a")]
 [assembly: System.Reflection.AssemblyProductAttribute("UMISModuleApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UMISModuleApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

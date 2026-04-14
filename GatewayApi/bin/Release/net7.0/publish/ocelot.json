@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/auth"
@@ -17,7 +17,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/mobile-auth"
@@ -29,7 +29,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/user-api/forgetPassword"
@@ -40,7 +40,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/user-api/saveUserAcademicinfo"
@@ -51,7 +51,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/user-api/saveUserInterest"
@@ -62,7 +62,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/saveOTP"
@@ -73,7 +73,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/getOTP"
@@ -84,7 +84,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/saveUser"
@@ -95,7 +95,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/core-api/saveContactUS"
@@ -106,7 +106,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/logo"
@@ -116,7 +116,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [{
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
       }],
       "UpstreamPathTemplate": "/auth-api/googleAuth"
   },
@@ -125,7 +125,7 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [{
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
       }],
       "UpstreamPathTemplate": "/auth-api/googleSaveUser"
   },
@@ -135,7 +135,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/auth-api/generateToken"
@@ -157,7 +157,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/user-api/{catchAll}"
@@ -168,7 +168,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/trainer-api/{catchAll}"
@@ -190,7 +190,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/school-api/{catchAll}"
@@ -267,7 +267,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2001"
+          "Port": "18001"
         }
       ],
       "UpstreamPathTemplate": "/pin-api/pin",
@@ -282,7 +282,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/trainer-api/saveExperience",
@@ -298,7 +298,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/dashboard-api/{catchAll}"
@@ -309,7 +309,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": "2002"
+          "Port": "18002"
         }
       ],
       "UpstreamPathTemplate": "/admin-api/{catchAll}"
@@ -320,6 +320,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:2000/"
+    "BaseUrl": "https://localhost:18000/"
   }
 }

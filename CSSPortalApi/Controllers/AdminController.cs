@@ -19,13 +19,41 @@ public class AdminController : ControllerBase
     {
         _dbCon = dbCon;
     }
-    [HttpGet("getJobCountAdmin")]
-    public IActionResult getJobCountAdmin()
+    [HttpGet("getSubject")]
+    public IActionResult getSubject()
     {
         try
         {
-            cmd = "select * from view_JobCountAdmin";
-            var response = dapperQuery.Qry<TotalJobAdmin>(cmd, _dbCon);
+            cmd = "select * from tbl_subject where isDeleted=0";
+            var response = dapperQuery.Qry<GetSubject>(cmd, _dbCon);
+            return Ok(response);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+    [HttpGet("getTopic")]
+    public IActionResult getTopic(int subjectID)
+    {
+        try
+        {
+            cmd = "select topicID,topicTitle,subjectID from tbl_topic where isDeleted=0 and subjectID='"+subjectID+"'";
+            var response = dapperQuery.Qry<GetTopic>(cmd, _dbCon);
+            return Ok(response);
+        }
+        catch (Exception e)
+        {
+            return BadRequest(e.Message);
+        }
+    }
+    [HttpGet("getSpeaker")]
+    public IActionResult getSpeaker()
+    {
+        try
+        {
+            cmd = "select userID,userName from tbl_user where isDeleted=0 and userTypeID=2";
+            var response = dapperQuery.Qry<GetSpeeker>(cmd, _dbCon);
             return Ok(response);
         }
         catch (Exception e)

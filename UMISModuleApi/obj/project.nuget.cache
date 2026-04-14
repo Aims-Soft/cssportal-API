@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fxYJ/vOrcOdWbOoif+mjcR9xr5TcAg6RZ31AhkLiXaMZlhaE2/cam2sthpMUBpTKd00MFRJIKLjLlsbGP1rdTw==",
+  "dgSpecHash": "GA495yUKroQ=",
   "success": true,
   "projectFilePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
   "expectedPackageFiles": [
@@ -114,17 +114,19 @@
     "C:\\Users\\Hafiz\\.nuget\\packages\\zaabee.extensions\\2023.11.1\\zaabee.extensions.2023.11.1.nupkg.sha512",
     "C:\\Users\\Hafiz\\.nuget\\packages\\zaabee.sequentialguid\\2023.2.3\\zaabee.sequentialguid.2023.2.3.nupkg.sha512",
     "C:\\Users\\Hafiz\\.nuget\\packages\\zaabee.smtpclient\\2023.2.4\\zaabee.smtpclient.2023.2.4.nupkg.sha512",
-    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Hafiz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1903",
+      "code": "NU1902",
       "level": "Warning",
+      "message": "Package 'MimeKit' 3.0.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx",
+      "projectPath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "warningLevel": 1,
-      "message": "Package 'MimeKit' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "filePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "libraryId": "MimeKit",
       "targetGraphs": [
         "net7.0"
@@ -133,8 +135,22 @@
     {
       "code": "NU1903",
       "level": "Warning",
+      "message": "Package 'MimeKit' 3.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
+      "projectPath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "warningLevel": 1,
+      "filePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "libraryId": "MimeKit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
       "message": "Package 'Npgsql' 6.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "projectPath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net7.0"
@@ -143,8 +159,10 @@
     {
       "code": "NU1903",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "projectPath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
         "net7.0"
@@ -153,8 +171,10 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "projectPath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Acedmey Project\\CSS-Portal\\CSSPortal-API\\UMISModuleApi\\UMISModuleApi.csproj",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net7.0"
