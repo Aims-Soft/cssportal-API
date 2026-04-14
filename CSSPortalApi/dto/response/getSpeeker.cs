@@ -11,4 +11,4 @@ namespace CSSPortalApi.Entities
         public int userID { get; set; }
         public string userName { get; set; }
     }
-}
+} 
