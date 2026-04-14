@@ -19,7 +19,7 @@ public class AdminController : ControllerBase
     {
         _dbCon = dbCon;
     }
-    [HttpGet("getSubject")]
+    [HttpGet("getSubject")] 
     public IActionResult getSubject()
     {
         try
